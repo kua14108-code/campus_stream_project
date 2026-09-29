@@ -1,0 +1,42 @@
+alert_time,sensor_id,room,rule,severity,metric,value,message
+2025-03-10 09:10:30,S06,Study-Hall,ZSCORE_SPIKE,warning,co2_ppm,1335.54,z-score = 92.2
+2025-03-10 09:14:00,S06,Study-Hall,ZSCORE_SPIKE,warning,temperature_c,25.69,z-score = 42.1
+2025-03-10 09:24:20,S03,Lab-305,ZSCORE_SPIKE,warning,humidity_pct,65.8,z-score = 45.1
+2025-03-10 09:25:00,S01,Lecture-101,CO2_HIGH,warning,co2_ppm,1022.0,CO2 above 1000 ppm for 2 min
+2025-03-10 09:30:00,S01,Lecture-101,CO2_HIGH,warning,co2_ppm,1087.0,CO2 above 1000 ppm for 2 min
+2025-03-10 09:35:00,S01,Lecture-101,CO2_HIGH,warning,co2_ppm,1101.0,CO2 above 1000 ppm for 2 min
+2025-03-10 09:40:00,S01,Lecture-101,CO2_HIGH,warning,co2_ppm,1116.0,CO2 above 1000 ppm for 2 min
+2025-03-10 09:42:40,S03,Lab-305,CO2_HIGH,warning,co2_ppm,1034.0,CO2 above 1000 ppm for 2 min
+2025-03-10 09:45:10,S01,Lecture-101,CO2_HIGH,warning,co2_ppm,1122.0,CO2 above 1000 ppm for 2 min
+2025-03-10 09:47:20,S04,Library-1F,ZSCORE_SPIKE,warning,humidity_pct,64.72,z-score = 48.1
+2025-03-10 09:47:40,S03,Lab-305,CO2_HIGH,warning,co2_ppm,1136.0,CO2 above 1000 ppm for 2 min
+2025-03-10 09:50:10,S01,Lecture-101,CO2_HIGH,warning,co2_ppm,1122.0,CO2 above 1000 ppm for 2 min
+2025-03-10 09:52:40,S03,Lab-305,CO2_HIGH,warning,co2_ppm,1229.0,CO2 above 1000 ppm for 2 min
+2025-03-10 09:52:40,S06,Study-Hall,ZSCORE_SPIKE,warning,temperature_c,26.84,z-score = 45.6
+2025-03-10 09:55:10,S01,Lecture-101,CO2_HIGH,warning,co2_ppm,1137.0,CO2 above 1000 ppm for 2 min
+2025-03-10 09:55:20,S01,Lecture-101,ZSCORE_SPIKE,warning,temperature_c,23.45,z-score = 6.3
+2025-03-10 09:56:10,S01,Lecture-101,TEMP_RAPID_RISE,critical,temperature_c,24.68,temperature rises 1.5 C/min
+2025-03-10 09:57:40,S03,Lab-305,CO2_HIGH,warning,co2_ppm,1318.0,CO2 above 1000 ppm for 2 min
+2025-03-10 10:00:10,S01,Lecture-101,CO2_HIGH,warning,co2_ppm,1137.0,CO2 above 1000 ppm for 2 min
+2025-03-10 10:02:40,S03,Lab-305,CO2_HIGH,warning,co2_ppm,1404.0,CO2 above 1000 ppm for 2 min
+2025-03-10 10:05:10,S01,Lecture-101,CO2_HIGH,warning,co2_ppm,1137.0,CO2 above 1000 ppm for 2 min
+2025-03-10 10:07:40,S03,Lab-305,CO2_HIGH,warning,co2_ppm,1487.0,CO2 above 1000 ppm for 2 min
+2025-03-10 10:09:50,S03,Lab-305,ZSCORE_SPIKE,warning,humidity_pct,61.53,z-score = 34.8
+2025-03-10 10:10:10,S01,Lecture-101,CO2_HIGH,warning,co2_ppm,1130.0,CO2 above 1000 ppm for 2 min
+2025-03-10 10:10:50,S03,Lab-305,CO2_CRITICAL,critical,co2_ppm,1544.0,CO2 above 1500 ppm for 2 min
+2025-03-10 10:15:10,S01,Lecture-101,CO2_HIGH,warning,co2_ppm,1135.0,CO2 above 1000 ppm for 2 min
+2025-03-10 10:15:50,S03,Lab-305,CO2_CRITICAL,critical,co2_ppm,1536.0,CO2 above 1500 ppm for 2 min
+2025-03-10 10:16:40,S03,Lab-305,CO2_HIGH,warning,co2_ppm,1500.0,CO2 above 1000 ppm for 2 min
+2025-03-10 10:20:10,S01,Lecture-101,CO2_HIGH,warning,co2_ppm,1109.0,CO2 above 1000 ppm for 2 min
+2025-03-10 10:21:40,S03,Lab-305,CO2_HIGH,warning,co2_ppm,1268.0,CO2 above 1000 ppm for 2 min
+2025-03-10 10:21:40,S04,Library-1F,SENSOR_STUCK,warning,all,731.0,values did not change for 2 min
+2025-03-10 10:26:40,S03,Lab-305,CO2_HIGH,warning,co2_ppm,1135.0,CO2 above 1000 ppm for 2 min
+2025-03-10 10:26:40,S04,Library-1F,SENSOR_STUCK,warning,all,731.0,values did not change for 2 min
+2025-03-10 10:31:40,S03,Lab-305,CO2_HIGH,warning,co2_ppm,1007.0,CO2 above 1000 ppm for 2 min
+2025-03-10 10:31:40,S04,Library-1F,SENSOR_STUCK,warning,all,731.0,values did not change for 2 min
+2025-03-10 10:41:00,S05,Canteen,SENSOR_OFFLINE,critical,all,70.0,no data for 70 s
+2025-03-10 10:41:50,S02,Lab-201,ZSCORE_SPIKE,warning,temperature_c,26.9,z-score = 42.7
+2025-03-10 10:48:00,S05,Canteen,SENSOR_RECOVERED,info,all,0.0,sensor is sending data again
+2025-03-10 10:49:50,S02,Lab-201,ZSCORE_SPIKE,warning,temperature_c,26.73,z-score = 40.6
+2025-03-10 10:54:50,S02,Lab-201,ZSCORE_SPIKE,warning,humidity_pct,66.52,z-score = 46.8
+2025-03-10 10:55:00,S05,Canteen,ZSCORE_SPIKE,warning,co2_ppm,1326.85,z-score = 50.4

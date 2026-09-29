@@ -1,0 +1,98 @@
+{
+  "spikes": {
+    "injected": 10,
+    "sweep": [
+      {
+        "z_limit": 3,
+        "flagged_rows": 82,
+        "injected_found": 10,
+        "recall": 1.0,
+        "other_rows": 72
+      },
+      {
+        "z_limit": 4,
+        "flagged_rows": 28,
+        "injected_found": 10,
+        "recall": 1.0,
+        "other_rows": 18
+      },
+      {
+        "z_limit": 5,
+        "flagged_rows": 16,
+        "injected_found": 10,
+        "recall": 1.0,
+        "other_rows": 6
+      },
+      {
+        "z_limit": 6,
+        "flagged_rows": 11,
+        "injected_found": 10,
+        "recall": 1.0,
+        "other_rows": 1
+      },
+      {
+        "z_limit": 8,
+        "flagged_rows": 10,
+        "injected_found": 10,
+        "recall": 1.0,
+        "other_rows": 0
+      },
+      {
+        "z_limit": 10,
+        "flagged_rows": 10,
+        "injected_found": 10,
+        "recall": 1.0,
+        "other_rows": 0
+      }
+    ]
+  },
+  "faults": [
+    {
+      "fault": "Ventilation failure (Lab-305)",
+      "rule": "CO2_CRITICAL",
+      "event_time": "10:09:00",
+      "first_alert": "10:10:50",
+      "delay_s": 110
+    },
+    {
+      "fault": "Heater fault (Lecture-101)",
+      "rule": "TEMP_RAPID_RISE",
+      "event_time": "09:55:00",
+      "first_alert": "09:56:10",
+      "delay_s": 70
+    },
+    {
+      "fault": "Frozen sensor (Library-1F)",
+      "rule": "SENSOR_STUCK",
+      "event_time": "10:20:00",
+      "first_alert": "10:21:40",
+      "delay_s": 100
+    },
+    {
+      "fault": "Lost connection (Canteen)",
+      "rule": "SENSOR_OFFLINE",
+      "event_time": "10:40:00",
+      "first_alert": "10:41:00",
+      "delay_s": 60
+    }
+  ],
+  "cleaning": {
+    "raw_records": 4298,
+    "processed_records": 4272,
+    "duplicates_injected": 26,
+    "duplicates_removed": 26,
+    "sentinel_injected": 16,
+    "missing_injected": 53,
+    "late_injected": 50
+  },
+  "alerts_total": 41,
+  "alerts_by_rule": {
+    "CO2_HIGH": 22,
+    "ZSCORE_SPIKE": 11,
+    "SENSOR_STUCK": 3,
+    "CO2_CRITICAL": 2,
+    "TEMP_RAPID_RISE": 1,
+    "SENSOR_OFFLINE": 1,
+    "SENSOR_RECOVERED": 1
+  }
+}
